@@ -1588,7 +1588,7 @@ GameObject:
   - component: {fileID: 641061189}
   - component: {fileID: 641061188}
   m_Layer: 5
-  m_Name: Minmize
+  m_Name: MinmizeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1657,7 +1657,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 641061189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1382159225}
+        m_TargetAssemblyTypeName: SlideController, Assembly-CSharp
+        m_MethodName: OnSlideOutClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &641061189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2787,7 +2799,7 @@ GameObject:
   - component: {fileID: 1002822554}
   - component: {fileID: 1002822553}
   m_Layer: 5
-  m_Name: Slide
+  m_Name: SlideButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2856,7 +2868,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1002822554}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1382159225}
+        m_TargetAssemblyTypeName: SlideController, Assembly-CSharp
+        m_MethodName: OnSlideInClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1002822554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3952,6 +3976,7 @@ GameObject:
   - component: {fileID: 1382159224}
   - component: {fileID: 1382159223}
   - component: {fileID: 1382159222}
+  - component: {fileID: 1382159225}
   m_Layer: 5
   m_Name: SlideIn
   m_TagString: Untagged
@@ -3971,8 +3996,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1002822552}
   - {fileID: 1271039146}
+  - {fileID: 1002822552}
   m_Father: {fileID: 363666291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4043,6 +4068,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1382159225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382159220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44f1c53e122d3749bc83324ddb5100d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SlideUI: {fileID: 1271039149}
+  m_Duration: 0.3
 --- !u!1 &1451233396
 GameObject:
   m_ObjectHideFlags: 0
