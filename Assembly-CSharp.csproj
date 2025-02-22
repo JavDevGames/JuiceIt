@@ -62,9 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\ShowHideController.cs" />
+    <Compile Include="Assets\Scenes\1. UIScaling\Scripts\SlideController.cs" />
     <Compile Include="Assets\Scripts\ControlPanel\ControlPanel.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\UIScalingControlPanelExtension.cs" />
     <Compile Include="Assets\Scripts\ControlPanel\ControlPanelExtension.cs" />
+    <Compile Include="Assets\Scenes\1. UIScaling\Scripts\SliderController.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\ScaleFromPivotController.cs" />
   </ItemGroup>
   <ItemGroup>
