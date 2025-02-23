@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\ControlPanel\ControlPanel.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\UIScalingControlPanelExtension.cs" />
     <Compile Include="Assets\Scripts\ControlPanel\ControlPanelExtension.cs" />
+    <Compile Include="Assets\Scenes\7. Text effects\Scripts\SlideController.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Prefabs\CannonBallCollision.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\SliderController.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Scripts\PirateShip.cs" />
