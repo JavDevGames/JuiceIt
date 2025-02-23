@@ -61,18 +61,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\8. Trails\Scripts\Ball.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\ShowHideController.cs" />
     <Compile Include="Assets\Scripts\WaterAnimation.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\SlideController.cs" />
     <Compile Include="Assets\Scripts\JewelAnimation.cs" />
     <Compile Include="Assets\Scenes\2. Jelly\Scripts\JellyScaleController.cs" />
+    <Compile Include="Assets\Scenes\8. Trails\Scripts\TrailsController.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\ControlPanel\ControlPanel.cs" />
+    <Compile Include="Assets\Scenes\8. Trails\Scripts\Bounds.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\UIScalingControlPanelExtension.cs" />
     <Compile Include="Assets\Scripts\ControlPanel\ControlPanelExtension.cs" />
     <Compile Include="Assets\Scenes\7. Text effects\Scripts\SlideController.cs" />
+    <Compile Include="Assets\Scenes\8. Trails\Scripts\AIPaddle.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Prefabs\CannonBallCollision.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\SliderController.cs" />
+    <Compile Include="Assets\Scenes\8. Trails\Scripts\HumanPaddle.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Scripts\PirateShip.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\ScaleFromPivotController.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Scripts\PlayerShip.cs" />
