@@ -6,6 +6,7 @@ public class Ball : MonoBehaviour
 {
     public Vector2 velocity;
     public Bounds bounds;
+    public Vector2 m_StartPos;
     public GameObject humanPaddle;
     public GameObject aiPaddle;
     public GameObject levelBounds;
@@ -13,7 +14,7 @@ public class Ball : MonoBehaviour
 
     void Start()
     {
-        
+        m_StartPos = transform.position;
     }
 
     // Update is called once per frame
@@ -55,7 +56,7 @@ public class Ball : MonoBehaviour
 
         // Out of bounds
         if (!finalBounds.Intersects(GetComponent<SpriteRenderer>().bounds))
-            transform.position = Vector3.zero;
+            transform.position = m_StartPos;
 
     }
 }
