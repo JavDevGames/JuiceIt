@@ -61,10 +61,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\4. Ghosting\Scripts\NinjaRun.cs" />
     <Compile Include="Assets\Scenes\8. Trails\Scripts\Ball.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\ShowHideController.cs" />
     <Compile Include="Assets\Scripts\WaterAnimation.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\SlideController.cs" />
+    <Compile Include="Assets\Scenes\6. Time dilation\Scripts\RotatingObstacle.cs" />
     <Compile Include="Assets\Scripts\JewelAnimation.cs" />
     <Compile Include="Assets\Scenes\2. Jelly\Scripts\JellyScaleController.cs" />
     <Compile Include="Assets\Scenes\8. Trails\Scripts\TrailsController.cs" />
@@ -80,6 +82,8 @@
     <Compile Include="Assets\Scenes\8. Trails\Scripts\HumanPaddle.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Scripts\PirateShip.cs" />
     <Compile Include="Assets\Scenes\1. UIScaling\Scripts\ScaleFromPivotController.cs" />
+    <Compile Include="Assets\Scenes\6. Time dilation\Scripts\TimeController.cs" />
+    <Compile Include="Assets\Scenes\6. Time dilation\Scripts\TriggerReset.cs" />
     <Compile Include="Assets\Scenes\3. Camera Shake\Scripts\PlayerShip.cs" />
     <Compile Include="Assets\Scenes\2. Jelly\Scripts\ScaleController.cs" />
   </ItemGroup>
@@ -102,6 +106,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Ninja Files\Read Me.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
