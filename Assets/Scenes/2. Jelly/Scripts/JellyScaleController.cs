@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class JellyScaleController: MonoBehaviour
 {
-    public Image ScaleTarget;
+    public Image m_ScaleTarget;
     public float m_Duration;
 
     [SerializeField]
@@ -30,7 +30,7 @@ public class JellyScaleController: MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        ScaleTarget.enabled = false;
+        m_ScaleTarget.gameObject.SetActive(false);
         m_Direction = ScaleDirection.None;
     }
 
@@ -46,7 +46,7 @@ public class JellyScaleController: MonoBehaviour
             SCALE_HELPER.x = scaleX;
             SCALE_HELPER.y = scaleY;
 
-            ScaleTarget.transform.localScale = SCALE_HELPER;
+            m_ScaleTarget.transform.localScale = SCALE_HELPER;
             
             if(progress >= 1.0f)
                 m_Direction = ScaleDirection.None;
@@ -55,8 +55,13 @@ public class JellyScaleController: MonoBehaviour
 
     public void OnScaleClicked()
     {
-        ScaleTarget.enabled = true;
+        m_ScaleTarget.gameObject.SetActive(true);
         m_Direction = ScaleDirection.Scale;
         m_StartTime = Time.realtimeSinceStartup;
+    }
+
+    public void OnHideClicked()
+    {
+        m_ScaleTarget.gameObject.SetActive(false);
     }
 }
