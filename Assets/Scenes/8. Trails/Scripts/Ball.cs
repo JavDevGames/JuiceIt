@@ -56,7 +56,10 @@ public class Ball : MonoBehaviour
 
         // Out of bounds
         if (!finalBounds.Intersects(GetComponent<SpriteRenderer>().bounds))
+        {
             transform.position = m_StartPos;
+
+        }
 
     }
 }
